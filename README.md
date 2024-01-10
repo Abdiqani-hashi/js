@@ -37,7 +37,7 @@ Declares a variable that can be reassigned. It has block-level scope.
 
 ```js
 let number = 10;
-let name = "Niklas";
+let name = "Hashi";
 
 let firstName; // This will create an emtpy variable that we can assign a value to later.
 
@@ -67,7 +67,7 @@ const myOtherAge; // Won't work, a const always needs value during the declarati
 The old way to declare variables. It has a function-level scope, which means it's available all over the place, it's hoisted to the top of the file. This is not a behaviour that we want.
 
 ```js
-var address = "jsgatan 47";
+var address = "Alva myrdalsgata44";
 ```
 
 ### Data types
@@ -88,11 +88,11 @@ Decimals is written with periods and not comma.
 Represents textual data enclose in quotes, and it can be single quotes or double quotes or even back ticks.
 
 ```js
-let firstName = "Niklas"; // A string in single quotes
+let firstName = "Abdiqani"; // A string in single quotes
 
-let lastName = "Fähnrich"; // A string in double quotes
+let lastName = "Hashi"; // A string in double quotes
 
-const address = `Skurupsgatan`; // A string in backticks.
+const address = `EESH`; // A string in backticks.
 
 const fullName = firstName + lastName; // This is something called string concatenation. In This case we use existing variables.
 
@@ -116,23 +116,23 @@ I can exist on may different rows.`;
 Now, let's look at injections inside a string.
 
 ```js
-const firstName = "Niklas";
-const lastName = "Fähnrich";
+const firstName = "Abdiqani";
+const lastName = "Hashi";
 
 const greeting = "Hello " + firstName + " " + lastName + "!" + " How are you doing?";
 
-console.log(greeting); // Hello Niklas Fähnrich! How are you doing?
+console.log(greeting); // Hello Abdiqani Hashi! How are you doing?
 ```
 
 The above is not so readable for us developers. For the end-used, it looks all nice. They see what they need to see. Let's try the same example with variable injections instead.
 
 ```js
-const firstName = "Niklas";
-const lastName = "Fähnrich";
+const firstName = "Abdiqani";
+const lastName = "Hashi";
 
 const greeting = `Hello ${firstName} ${lastName}! How are you doing?`;
 
-console.log(greeting); // Hello Niklas Fähnrich! How are you doing?
+console.log(greeting); // Hello Abdiqani Hashi! How are you doing?
 ```
 
 #### Boolean
